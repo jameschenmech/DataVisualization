@@ -6,6 +6,8 @@ Created on Thu Jan 11 10:09:28 2018
 """
 #I have somethings to say about you my friend
 #you are guaranteed to succeed
+#regardless of what happens you have to believe
+#this course is the best course
 
 import os
 print(os.getcwd) 
