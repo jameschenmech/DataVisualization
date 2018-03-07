@@ -13,6 +13,8 @@ import os
 print(os.getcwd) 
 #wdir='C:/Users/James/Documents/Python Data Science/Data Visualization')
 
+
+
 import matplotlib.pyplot as plt
 
 import numpy as np
@@ -27,7 +29,11 @@ Z = X**2/25 + Y**2/4*1
 
 print('Z:\n', Z)
 
-plt.figure()
+plt.plot(X,y) #need to delete this late
+
+
+
+#deleted plt.figure()
 plt.set_cmap('gray')
 plt.pcolor(X, Y, Z)
 plt.colorbar()
