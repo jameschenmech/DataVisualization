@@ -4,6 +4,8 @@ Created on Thu Jan 11 10:09:28 2018
 
 @author: James
 """
+#I have somethings to say about you my friend
+#you are guaranteed to succeed
 
 import os
 print(os.getcwd) 
